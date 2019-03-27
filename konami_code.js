@@ -13,6 +13,10 @@ function init() {
       // if they get it wrong
       tracker = 0
     }
+    if (tracker === 10) {
+      alert ('Nice Job')
+    } 
+  }
   }
                             // event,   callback
   document.addEventListener('keydown', onKeyDown)
