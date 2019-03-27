@@ -9,6 +9,9 @@ function init() {
     // did they get the right key code?
     if (event.keyCode === code[tracker]) {
       tracker++ 
+    } else {
+      // if they get it wrong
+      tracker = 0
     }
   }
                             // event,   callback
