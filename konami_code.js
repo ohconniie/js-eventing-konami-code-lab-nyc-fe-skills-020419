@@ -15,7 +15,6 @@ function init() {
     }
     if (tracker === 10) {
       alert ('Nice Job')
-    } 
   }
   }
                             // event,   callback
